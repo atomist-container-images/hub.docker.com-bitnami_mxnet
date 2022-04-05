@@ -1,12 +1,27 @@
-# Tags: latest, 1.9.0-debian-10-r91, 1.9.0, 1-debian-10, 1
+# Tags: latest, 1.9.0-debian-10-r96, 1.9.0, 1-debian-10, 1
 FROM bitnami/mxnet:latest
-FROM bitnami/mxnet:1.9.0-debian-10-r91
+FROM bitnami/mxnet:1.9.0-debian-10-r96
 FROM bitnami/mxnet:1.9.0
 FROM bitnami/mxnet:1-debian-10
 FROM bitnami/mxnet:1
 
 # Tags: _
 FROM bitnami/mxnet:_
+
+# Tags: 1.9.0-debian-10-r95
+FROM bitnami/mxnet:1.9.0-debian-10-r95
+
+# Tags: 1.9.0-debian-10-r94
+FROM bitnami/mxnet:1.9.0-debian-10-r94
+
+# Tags: 1.9.0-debian-10-r93
+FROM bitnami/mxnet:1.9.0-debian-10-r93
+
+# Tags: 1.9.0-debian-10-r92
+FROM bitnami/mxnet:1.9.0-debian-10-r92
+
+# Tags: 1.9.0-debian-10-r91
+FROM bitnami/mxnet:1.9.0-debian-10-r91
 
 # Tags: 1.9.0-debian-10-r90
 FROM bitnami/mxnet:1.9.0-debian-10-r90
@@ -79,18 +94,3 @@ FROM bitnami/mxnet:1.9.0-debian-10-r68
 
 # Tags: 1.9.0-debian-10-r67
 FROM bitnami/mxnet:1.9.0-debian-10-r67
-
-# Tags: 1.9.0-debian-10-r66
-FROM bitnami/mxnet:1.9.0-debian-10-r66
-
-# Tags: 1.9.0-debian-10-r65
-FROM bitnami/mxnet:1.9.0-debian-10-r65
-
-# Tags: 1.9.0-debian-10-r64
-FROM bitnami/mxnet:1.9.0-debian-10-r64
-
-# Tags: 1.9.0-debian-10-r63
-FROM bitnami/mxnet:1.9.0-debian-10-r63
-
-# Tags: 1.9.0-debian-10-r62
-FROM bitnami/mxnet:1.9.0-debian-10-r62
